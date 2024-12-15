@@ -1,8 +1,8 @@
-Overview:
+## Overview:
 
 In this analysis I develop and evaluate a deep learning model for predicting charitable donations. The goal is to find potential donors based on characteristics derived from historical donation data.
 
-Results:
+## Results:
 
 The target variable for the model is the binary indicator of whether someone donates to charity from the column ‘Donation_Status’.
 
@@ -14,12 +14,14 @@ The output layer uses the Sigmoid activation function and has an output layer of
 
 The choice of 80 neurons in the first layer and 30 neurons in the second layer balances complexity and efficiency. ReLU activation is good for handling non-linearity. 
 
-Model Performance:
+## Model Performance:
 
 Final Training Accuracy:  74.16%
 Final Test Accuracy: 72.63%
 
 The final model achieved an accuracy of 74.16% on the training set and 72.63% on the test set, indicating good generalization performance.
 
-Recommendation: As far as an alternative model, a random forest classifier can handle a large number of features and their interaction without requiring feature scaling. Performance of the predictive model could be further enhanced by exploring an alternative model and fine-tuning the neural network.
+## Recommendation: 
+
+As far as an alternative model, a random forest classifier can handle a large number of features and their interaction without requiring feature scaling. Performance of the predictive model could be further enhanced by exploring an alternative model and fine-tuning the neural network.
 
